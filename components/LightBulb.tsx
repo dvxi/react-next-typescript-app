@@ -1,6 +1,6 @@
 import React from "react";
 
-export function LightBulb(props) {
+export function LightBulb(props: any) {
   return (
     <mesh {...props} >
       <pointLight castShadow />

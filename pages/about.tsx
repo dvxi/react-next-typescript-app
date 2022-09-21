@@ -1,14 +1,17 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Head from 'next/head';
 
 const About = () => {
   return (
-    <div>
-      <Navbar/>
-      <h1>About</h1>
-      <p>Lore</p>
-      <Footer/>
-    </div>
+    <>
+      <Head>
+          <title>Ninja List | About</title>
+          <meta name="keywords" content="ninjas" />
+        </Head>
+      <div>
+        <h1>About</h1>
+        <p>Lore</p>
+      </div>
+    </>
   )
 }
 
